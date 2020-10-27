@@ -1,0 +1,60 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: lightslategray;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(116, 37, 37);
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    padding: 12px 24px;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+
+.button--primary {
+    background: aquamarine;
+    color: darkgray;
+}
+
+.button--secondary {
+    background: darkgray;
+    color: aquamarine;
+}
+
+.textin {
+    column-count: 2;
+    text-align: justify;
+}
+
+
+/* A4 tem 21cm */
+#page {
+    width: 17cm;
+    padding: 2cm;
+    margin: auto;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: pink;
+}
+
